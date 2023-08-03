@@ -1,0 +1,22 @@
+
+link: https://github.com/facebookresearch/audiocraft/blob/main/docs/MUSICGEN.md
+link_colab: https://colab.research.google.com/github/sanchit-gandhi/notebooks/blob/main/MusicGen.ipynb#scrollTo=21d38c22-bb79-495c-8aa9-09ceabb2957a
+
+dependencies:
+
+MUSIC GEN:
+----------------------------------------------------------------
+pip3 install torch (specified version) mine: pip3 install torch  -f https://download.pytorch.org/whl/cu114/torch_stable.html
+pip install git+https://github.com/huggingface/transformers.git
+----------------------------------------------------------------
+AUDIO GEN: 
+----------------------------------------------------------------
+pip install -U audiocraft  # stable release || OR || pip install -U git+https://git@github.com/facebookresearch/audiocraft#egg=audiocraft  # bleeding edge
+sudo apt-get install ffmpeg
+pip install git+https://github.com/facebookresearch/audiocraft.git
+----------------------------------------------------------------
+TEXT2VID:
+---------------------------------------------------------------- 
+$ pip install diffusers transformers accelerate torch
+----------------------------------------------------------------
+
